@@ -1,0 +1,62 @@
+/* Шрифти */
+@font-face {
+    font-family: 'Raleway' sans-serif;
+    src: local('Raleway') 
+        url('Raleway-Thin.woff2') format('woff2'),
+        url('Raleway-Thin.woff') format('woff'),
+        url('Raleway-Thin.ttf') format('truetype'),
+        url('Raleway-Thin.svg#Raleway-Thin') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto' sans-serif;
+    src: local('Roboto') 
+        url('Roboto-Bold.woff2') format('woff2'),
+        url('Roboto-Bold.woff') format('woff'),
+        url('Roboto-Bold.ttf') format('truetype'),
+        url('Roboto-Bold.svg#Roboto-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto' sans-serif;
+    src: local('Roboto') 
+        url('Roboto-Regular.woff2') format('woff2'),
+        url('Roboto-Regular.woff') format('woff'),
+        url('Roboto-Regular.ttf') format('truetype'),
+        url('Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto' sans-serif;
+    src: local('Roboto') 
+        url('Roboto-Medium.woff2') format('woff2'),
+        url('Roboto-Medium.woff') format('woff'),
+        url('Roboto-Medium.ttf') format('truetype'),
+        url('Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Змінні */
+:root {
+    --color-primary: #212121;
+    --color-secondary: #757575;
+    --color-other: #ffffff;
+    --color-accent: #2196F3;
+
+    --color-background-primary: #E5E5E5;
+    --colot-background-secondary: #2F303A;
+
+    --font-family-primary: 'Roboto', sans-serif;
+    --font-family-title: 'Raleway', sans-serif;
+}
