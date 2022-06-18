@@ -1,4 +1,4 @@
-/* Шрифти */
+/* Шрифти
 @font-face {
     font-family: 'Raleway';
     src: local('Raleway') 
@@ -45,7 +45,7 @@
     font-weight: 500;
     font-style: normal;
     font-display: swap;
-}
+} */
 
 /* Змінні */
 :root {
@@ -161,6 +161,7 @@ main {
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
+    text-transform: uppercase;
     letter-spacing: 0.03em;
 }
 .hero-button {
@@ -279,6 +280,7 @@ main {
 }
 .text-address {
     color: var(--color-background-other);
+    font-style: normal;
 }
 .link-address {
     color: var(--color-alfa);
