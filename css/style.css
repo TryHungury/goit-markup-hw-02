@@ -284,6 +284,7 @@ main {
 }
 .link-address {
     color: var(--color-alfa);
+    font-style: normal;
 }
 
 /* Ховер, фокус */
